@@ -1,0 +1,411 @@
+                    /*CORP*/
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Arial';
+
+}
+
+p {
+    text-align: center;
+    color: #60759F;
+}
+
+                    /*TITRES*/
+
+h1 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    color: #1e3158;
+
+}
+
+h2 {
+    color: #1e3158;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color: #1e3158;
+    font-weight: bold;
+}
+
+                    /*HEADER*/
+header {
+    display: flex;
+}
+.logo {
+    margin-left: 6%;
+    margin-right: 1%;
+}
+#menu {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#menu a {
+    margin: 20px;
+    text-decoration: none;
+    color: #8ea6d2;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    color: #1e3158;
+}
+
+div#mceu_26 {
+    height: 30vh;
+                        
+}
+
+
+#lien {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15%;
+}
+
+                    /*SLIDER*/
+.slide {
+    height: auto;
+    width: 100%;
+}
+
+img + a {
+    text-decoration: none;
+    display: block;
+    color: #1e3158;
+    margin-left: 76px;
+    margin-top: 1%;
+}
+
+                    /*ARTICLES*/
+#articles,
+#listeArticles {
+    margin: auto;
+    width: 50%;
+    margin-top: 3%;
+}
+
+#articles a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #1e3158;
+    margin-bottom: 10%;
+}
+
+#listeArticles a {
+    text-decoration: none;
+    color: #1e3158;
+}
+
+                    /*COMMENTAIRES*/
+
+#ajoutCommentaire {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#ajoutCommentaire form {
+    display: flex;
+
+}
+
+#blockPseudo {
+    margin-right: 1%;
+}
+
+#blockCommentaire {
+    margin-left: 1%;
+}
+
+#pseudo {
+    height: 30px;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    color: #1e3158;
+}
+
+#commentaires {
+    margin-bottom: 5%;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+#commentaires a {
+    text-decoration: none;
+    color: #1e3158;
+    font-weight: bold;
+}
+
+#commentaireSignaler a {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #1e3158;
+    margin-bottom: 10%;
+}
+
+#commentaireSignaler {
+    width: 50%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+                    /*FORMULAIRES*/
+li a {
+    text-decoration: none;
+    color: #1e3158;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    color: #1e3158;
+}
+
+#formulaire label {
+    color: #1e3158;
+    font-size: 17px;
+}
+
+#formConnexion label {
+    color: #1e3158;
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    margin: auto;
+}
+
+                    /*CONNEXION*/
+#connexion {
+    margin-top: 4%;
+}
+
+.submitConnexion {
+    display: flex;
+    margin: auto;
+    background-color: #60759fbf;
+    border-color: #60759fbf;
+    color: #FFFFFF;
+    border-radius: 4%;
+    cursor: pointer;
+    height: 26px;
+}
+
+                    /*BOUTON*/
+.bouton {
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: 5%;
+}
+
+.bouton input {
+    background-color: #60759fbf;
+    border-color: #60759fbf;
+    color: #FFFFFF;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+#valider {
+    display: flex;
+    margin: auto;
+    margin-top: 3%;
+    background-color: #60759fbf;
+    border-color: #60759fbf;
+    color: #FFFFFF;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+                    /*CATEGORIES */
+#categories h2 {
+    align-items: center;
+    text-align: center;
+}
+
+#categories {
+    margin: auto;
+    width: 50%;
+    margin-top: 3%;
+}
+
+#categories h3 {
+    color: #1e3158;
+    text-align: center;
+    width: 100%;
+
+}
+
+                    /*FOOTER ET AUTRES*/
+
+footer {
+    border-top: 1px #1e3158 solid;
+    background-color: #60759f4a;
+    height: 127px;
+    margin-top: 3%;
+
+}
+
+
+#choix {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.encadrement a {
+    text-decoration: none;
+    color: #60759F;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+
+}
+
+.encadrement {
+    display: flex;
+    border: 2px #1e3158 solid;
+    border-radius: 6%;
+    width: 150px;
+    height: 41px;
+}
+
+.separation {
+    border-top: 1px #1e3158 solid;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+
+                    /*-----MEDIAQUERIES-----*/
+@media screen and (max-width: 1013px) {
+    h1 {
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        margin-left: initial;
+        margin-right: initial;
+    }
+    #menu a {
+        width: initial;
+        margin: 2%;
+    }
+}
+@media screen and (max-width: 744px) {
+    h1 {
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    header {
+        display: initial;
+    }
+
+    #menu {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+    #articles {
+        width: 100%;
+    }
+
+    .bouton {
+        height: auto;
+        display: flex;
+        flex-direction: initial;
+        align-items: initial;
+        justify-content: center;
+        margin-left: initial;
+    }
+
+    #ajoutCommentaire form {
+        display: initial;
+    }
+
+    #commentaires {
+        width: 100%;
+    }
+
+
+    footer {
+        width: 100%;
+    }
+
+    #connexion {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #formulaire {
+        width: 100%;
+    }
+
+    #choix {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #listeArticles {
+        width: 100%;
+    }
+
+    #commentaireSignaler {
+        width: 100%;
+
+    }
+}
